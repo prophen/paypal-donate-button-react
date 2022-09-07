@@ -14,7 +14,9 @@ An example donate form using the React components for the PayPal JS SDK.
 
 ![animation showing where to clone or download the code](public/clone-or-download.gif)
 
-### 2. Navigate to the directory and install the dependencies
+> 💡 &nbsp; [Git Guide on the 'git clone' command](https://github.com/git-guides/git-clone)
+
+### 2. Navigate to the app directory and install the dependencies
 
 ```
 cd paypal-donate-button-react
@@ -86,4 +88,6 @@ export function DonateApp() {
   <dd><a href="https://paypal.github.io/react-paypal-js/?path=/story/example-paypalbuttons--donate">https://paypal.github.io/react-paypal-js/?path=/story/example-paypalbuttons--donate</a></dd>
   <dt>PayPal JavaScript SDK Complete Reference</dt>
   <dd><a href="https://developer.paypal.com/docs/business/javascript-sdk/javascript-sdk-reference/">https://developer.paypal.com/docs/business/javascript-sdk/javascript-sdk-reference/</a></dd>
+  <dt>CodeSandbox sample app</dt>
+  <dd><a href="https://codesandbox.io/s/paypal-donation-button-example-f4jq38?file=/DonateApp.js">https://codesandbox.io/s/paypal-donation-button-example-f4jq38?file=/DonateApp.js</a></dd>
 </dl>
