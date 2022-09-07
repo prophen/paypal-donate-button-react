@@ -2,9 +2,9 @@
 
 An example donate form using the React components for the PayPal JS SDK.
 
-> 🔗 &nbsp; [react-paypal-js GitHub repository](https://github.com/paypal/react-paypal-js)
+🔗 &nbsp; [react-paypal-js GitHub repository](https://github.com/paypal/react-paypal-js)
 
-> 🔗 &nbsp; See a [live demo of this sample app on CodeSandbox](https://codesandbox.io/s/paypal-donation-button-example-f4jq38?file=/DonateApp.js)
+🔗 &nbsp; See a [live demo of this sample app on CodeSandbox](https://codesandbox.io/s/paypal-donation-button-example-f4jq38?file=/DonateApp.js)
 
 ![App Donate form screenshot](public/app-screenshot.png)
 
@@ -52,9 +52,9 @@ yarn run dev
 
 To use your own sandbox credentials instead of the `test` client ID, log in to the [developer dashboard](https://www.paypal.com/signin?returnUri=https%3A%2F%2Fdeveloper.paypal.com%2Fdeveloper%2Fapplications) and get your client ID from your default application.
 
-Change the `clientID` from `"test"` to your client ID in the `DonateApp()` component found in **src/DonateApp.jsx**.
-
 > 💡 &nbsp; If you need help setting up your developer dashboard or finding your client ID, follow the first step in the getting started documentation to [get API credentials](https://developer.paypal.com/docs/business/get-started/#get-api-credentials)
+
+Change the `clientID` from `"test"` to your client ID in the `DonateApp()` component found in **src/DonateApp.jsx**.
 
 ```javascript
 export function DonateApp() {
